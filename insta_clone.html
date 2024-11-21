@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/insta_clone.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Website</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="logo">
+                Social
+            </h2>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Search">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create.post">Create</label>
+                <div class="profile-picture">
+                    <img src="../img/nvidia-transparent-nvidia-free-free-png.webp" alt="profile">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+          <!----------------MAIN-------------------->
+
+    <main>
+        <div class="container">
+            <!----------------left-------------------->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-picture">
+                        <img src="../img/nvidia-transparent-nvidia-free-free-png.webp" alt="profile">
+                    </div>
+                    <div class="handle">
+                        <h4>User</h4>
+                        <p class="text-muted">
+                            @User
+                        </p>
+                    </div>
+                </a>
+                <!----------------side bar-------------------->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span> <i class="fa fa-house"></i></span> <h3>Home</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span> <i class="fa fa-clock"></i></span> <h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                        <span> <i class="fa fa-bell"><small class="notification-count"> 5+ </small></i></span>
+                        <h3>Notifications</h3>
+                        <!------Notification popup---------> 
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>phani</b> accepted your request
+                                    <small class="">2 days ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>chandra</b> accepted your request
+                                    <small class="">2 days ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>vishnu</b> accepted your request
+                                    <small class="">2 days ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>aswartha</b> accepted your request
+                                    <small class="">2 days ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>ganesh</b> accepted your request
+                                    <small class="">2 days ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>jini</b> accepted your request
+                                    <small class="">2 days ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>purush</b> accepted your request
+                                    <small class="">2 days ago</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="menu-item" id="messages-notifications">
+                        <span> <i class="fa-solid fa-envelope" id="Messages-notifications"><small class="notification-count"> 3 </small></i></span>
+                        <h3>Messages</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span> <i class="fa-solid fa-bookmark"></i></span>
+                        <h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span> <i class="fa-solid fa-chart-line"></i> </span><h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item" id="theme">
+                        <span> <i class="fa-solid fa-palette"></i> </span><h3>Theme</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span> <i class="fa-solid fa-gear"></i> </span>
+                        <h3>Settings</h3>
+                    </a>
+                </div>
+                <label class="btn btn-primary" for="create-post">Create post</label>
+            </div>
+            <!----------------middle-------------------->
+            <div class="middle">
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="../img/—Pngtree—stone rock_1389228.png" height="100%">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="../img/—Pngtree—stone rock_1389228.png" alt="">
+                        </div>
+                        <p class="name">charan-puligundla</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="../img/Acer_Wallpaper_02_3840x2400.jpg" alt="">
+                        </div>
+                        <p class="name">mr.white-beard</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="../img/Acer_Wallpaper_02_3840x2400.jpg" alt="">
+                        </div>
+                        <p class="name">__arswartha</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="../img/Acer_Wallpaper_02_3840x2400.jpg" alt="">
+                        </div>
+                        <p class="name">vishnu vardhan</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="../img/Acer_Wallpaper_02_3840x2400.jpg" alt="">
+                        </div>
+                        <p class="name">ganesh</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="../img/Acer_Wallpaper_02_3840x2400.jpg" alt="">
+                        </div>
+                        <p class="name">moye moye</p>
+                    </div>
+                </div>
+                <!--------end of stories----------->
+                
+                <form class="create-post">
+                    <div class="profile-picture">
+                        <img src="../img/—Pngtree—stone rock_1389228.png" alt="">
+                    </div>
+                    <input type="text" placeholder="what's on your mind user ?" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+
+                <!-----------Feeds---------->
+                <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="../img/Acer_Wallpaper_03_3840x2400.jpg" alt="">
+                                    
+                                </div>
+                                <div class="info">
+                                    <h3>charan-puligundla</h3>
+                                    <small>feb 14, 8 months ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+                        </div>
+                        <div class="photo">
+                            <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa fa-share-nodes"></i>
+                            </div>
+                            <div class="bookmark">
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <p>Liked by <b>charan</b> <b>charan</b> <b>and two others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Name</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. A architecto nostrum, incidunt ipsam atque neque omnis!</p>
+                        </div>
+                        <div class="text-muted comments">
+                            view all 207 comments
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="../img/Acer_Wallpaper_03_3840x2400.jpg" alt="">
+                                    
+                                </div>
+                                <div class="info">
+                                    <h3>charan-puligundla</h3>
+                                    <small>feb 14, 8 months ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+                        </div>
+                        <div class="photo">
+                            <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa fa-share-nodes"></i>
+                            </div>
+                            <div class="bookmark">
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <p>Liked by <b>charan</b> <b>charan</b> <b>and two others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Name</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. A architecto nostrum, incidunt ipsam atque neque omnis!</p>
+                        </div>
+                        <div class="text-muted comments">
+                            view all 207 comments
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="../img/Acer_Wallpaper_03_3840x2400.jpg" alt="">
+                                    
+                                </div>
+                                <div class="info">
+                                    <h3>charan-puligundla</h3>
+                                    <small>feb 14, 8 months ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+                        </div>
+                        <div class="photo">
+                            <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa fa-share-nodes"></i>
+                            </div>
+                            <div class="bookmark">
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <p>Liked by <b>charan</b> <b>charan</b> <b>and two others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Name</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. A architecto nostrum, incidunt ipsam atque neque omnis!</p>
+                        </div>
+                        <div class="text-muted comments">
+                            view all 207 comments
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="../img/Acer_Wallpaper_03_3840x2400.jpg" alt="">
+                                    
+                                </div>
+                                <div class="info">
+                                    <h3>charan-puligundla</h3>
+                                    <small>feb 14, 8 months ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+                        </div>
+                        <div class="photo">
+                            <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa fa-share-nodes"></i>
+                            </div>
+                            <div class="bookmark">
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <p>Liked by <b>charan</b> <b>charan</b> <b>and two others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Name</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. A architecto nostrum, incidunt ipsam atque neque omnis!</p>
+                        </div>
+                        <div class="text-muted comments">
+                            view all 207 comments
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="../img/Acer_Wallpaper_03_3840x2400.jpg" alt="">
+                                    
+                                </div>
+                                <div class="info">
+                                    <h3>charan-puligundla</h3>
+                                    <small>feb 14, 8 months ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+                        </div>
+                        <div class="photo">
+                            <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa fa-share-nodes"></i>
+                            </div>
+                            <div class="bookmark">
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <p>Liked by <b>charan</b> <b>charan</b> <b>and two others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Name</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. A architecto nostrum, incidunt ipsam atque neque omnis!</p>
+                        </div>
+                        <div class="text-muted comments">
+                            view all 207 comments
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="../img/Acer_Wallpaper_03_3840x2400.jpg" alt="">
+                                    
+                                </div>
+                                <div class="info">
+                                    <h3>charan-puligundla</h3>
+                                    <small>feb 14, 8 months ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+                        </div>
+                        <div class="photo">
+                            <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa fa-share-nodes"></i>
+                            </div>
+                            <div class="bookmark">
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <p>Liked by <b>charan</b> <b>charan</b> <b>and two others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Name</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. A architecto nostrum, incidunt ipsam atque neque omnis!</p>
+                        </div>
+                        <div class="text-muted comments">
+                            view all 207 comments
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="../img/Acer_Wallpaper_03_3840x2400.jpg" alt="">
+                                    
+                                </div>
+                                <div class="info">
+                                    <h3>charan-puligundla</h3>
+                                    <small>feb 14, 8 months ago</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+                        </div>
+                        <div class="photo">
+                            <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa fa-share-nodes"></i>
+                            </div>
+                            <div class="bookmark">
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <span>
+                                <img src="../img/Acer_Wallpaper_01_3840x2400.jpg" alt="">
+                            </span>
+                            <p>Liked by <b>charan</b> <b>charan</b> <b>and two others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Name</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. A architecto nostrum, incidunt ipsam atque neque omnis!</p>
+                        </div>
+                        <div class="text-muted comments">
+                            view all 207 comments
+                        </div>
+                    </div>
+                </div>
+                <!----------------end of feeds-------------------->
+            </div>
+            <!----------end of middle----------------->
+           
+            <!----------------right-------------------->
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4>
+                        <i class="fa fa-pen-to-square"></i>
+                    </div>
+                    <!---------Sreach bar---------->
+                    <div class="search">
+                        <i class="fa fa-magnifying-glass"></i>
+                        <input type="search" placeholder="Search Meassages" id="message-search">
+                    </div>
+                    <!-----------Messages category----------------->
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-request">Requests(2)</h6>
+                    </div>
+                    <!---------------Message---------------->
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="../img/iPhone-12.png" alt="">
+                            <div class="active">
+                                
+                            </div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Charan</h5>
+                            <p class=".text-muted">just woke up broh</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="../img/iPhone-12.png" alt="">
+                            <div class="active">
+
+                            </div>
+                        </div>
+                        <div class="message-body">
+                            <h5>purush</h5>
+                            <p class=".text-muted">just woke up broh</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="../img/iPhone-12.png" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>phani</h5>
+                            <p class=".text-muted">just woke up broh</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="../img/iPhone-12.png" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>aswartha</h5>
+                            <p class=".text-muted">just woke up broh</p>
+                        </div>
+                    </div>
+                    <!---------------end of messages------------------>
+                </div>
+                <!----------------friend requests------------------->
+
+                <div class="friend-request">
+                    <h4>Requsts</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="../img/iPhone-12.png" alt="">
+                            </div>
+                            <div>
+                                <h5>janasena</h5>
+                                <p class="text-muted">5 mutual friends</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="../img/iPhone-12.png" alt="">
+                            </div>
+                            <div>
+                                <h5>janasena</h5>
+                                <p class="text-muted">5 mutual friends</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="../img/iPhone-12.png" alt="">
+                            </div>
+                            <div>
+                                <h5>janasena</h5>
+                                <p class="text-muted">5 mutual friends</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of right------------------------------ -->
+
+            <!-- start of the theme customization------------------- -->
+
+            <div class="theme">
+                <div class="card">
+                    <h3>Customize your view</h3>
+                    <p class="text-muted">Manage your font size, color and background</p>
+
+                    <!-- font size------------------ -->
+                    <div class="font-size">
+                        <h3>
+                            Font size
+                        </h3>
+                        <div>
+                            <h6>Aa</h6>
+                            <div class="choose-size">
+                                <span class="font-size-1"></span>
+                                <span class="font-size-2 active"></span>
+                                <span class="font-size-3"></span>
+                                <span class="font-size-4"></span>
+                                <span class="font-size-5"></span>
+                            </div>
+                            <h4>Aa</h4>
+                        </div>
+                    </div>
+
+                    <!-- color choosing------------ -->
+                    <div class="color">
+                        <h3>color</h3>
+                        <div class="choose-color">
+                            <span class="color-1 acive"></span>
+                            <span class="color-2"></span>
+                            <span class="color-3"></span>
+                            <span class="color-4"></span>
+                            <span class="color-5"></span>
+                        </div>
+                    </div>
+                    <!-- choose background color ------------------->
+
+                    <div class="background">
+                        <h3>Background</h3>
+                        <div class="choose-bg">
+                            <div class="bg-1 active">
+                                <span></span>
+                                <h5>Light</h5>
+                            </div>
+                            <div class="bg-2">
+                                <span></span>
+                                <h5>Dark</h5>
+                            </div>
+                            <div class="bg-3">
+                                <span></span>
+                                <h5>lights-out</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="../js/innsta_clone.js"></script>
+</body>
+</html>
